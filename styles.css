@@ -1,0 +1,118 @@
+@import url("https://font.googlepis.com/css?family=poppins:wght@700&display=swap");
+
+
+
+
+* {
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+	scroll-behavior:  smooth;
+}
+
+body {
+	background-color : black
+    color(srgb red green blue) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a {
+    text-decoration: none;
+    color: blue;
+}
+.navigation a:hover {
+    color: white;
+}
+hr{
+   opacity: 10%; 
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}    
+
+.heroSub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.title {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+.heroBtns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.Srem;
+    margin-right: 20px;
+}
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+.textTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutName {
+    color: white;
+}
+.aboutTitle {
+    color: white;
+}
+.aboutMePar {
+    text-align: justify;
+    color: rgba(red, green, blue, alpha);
+}
+.AIName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+.AITitle {
+     display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.roboticsName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
